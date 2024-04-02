@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Holy Grail Layout</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Holi Grail Layout</h1>
+    <img src="https://www.liavaag.org/wiki/images/e/e4/Holy-Grail-Web-Design.png">
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">sign in</a></li>
+          <li><a href="#">About Website</a></li>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">sign out</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
+      <div class="space"></div>
+      <h3>Add two numbers</h3>
+      
+      <div class="space"></div>
+      <form id="myForm">
+        <label for="num1">Number 1:</label>
+        <input type="number" id="num1" name="num1">
+        <label for="num2">Number 2:</label>
+        <input type="number" id="num2" name="num2">
+        <button type="button" id="submitFormBtn">Add Numbers</button>
+        <div id="sumresult"></div>
+      </form>
+      
+      <h2>Holi Grail Layout</h2>
+      <p>A web design pattern known as the "Holy Grail" layout uses CSS to address a common layout problem. It has a three-column layout with two sidebars on either side of the main content section in the middle column. A header sits atop this arrangement, while a footer serves as its anchor. The "Holy Grail" design is so named because it effectively addresses multiple layout issues: it permits the center content area to resize fluidly, it keeps both sidebars at the same height regardless of the length of content, and it makes sure the layout changes smoothly between devices and screen sizes.</p>
+    </main>
+    <aside class="advertisement">
+      <a href="https://www.amazon.com/" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Rd3IQN-sg-VsV4M-c9arKMUJ5bKatK9xmQ&s">
+      </a>
+      <div class="Advertisement">
+        <h2>Special Discount on all products</h2>
+        <p>Hurry, limited time offer.Grab the offer soon</p>
+      </div>
+    </aside>
+  </div>
+    <footer>
+        <p>ADDENDUM : Using HTML, CSS, and JavaScript, the provided code generates a well-organized HTML webpage with a Holy Grail layout. Standard document declarations are included at the beginning of the HTML file, along with references to external CSS and JavaScript files. It outlines the layout of the homepage, which consists of a header with an image and a greeting, a main content area with a sidebar, content, and advertisement section separated by a CSS Grid layout, and a footer with dynamically updated information like the latest changed date displayed.
+          By designing different parts for an aesthetically pleasing layout, the CSS file enhances the HTML framework. It establishes a certain font style, resets the body and HTML default styles, and defines classes for the header, sidebar, content, advertisement, and footer, among other areas. These styles guarantee that the webpage looks the same on all devices. They contain background colors, padding, margins, font sizes, and responsive design guidelines.
+          The homepage becomes more interactive with the help of the JavaScript file, which mostly handles form handling. It has an event listener fastened to the form's submit button. When the button is pressed, a function that modifies the form's input fields by ID, clears their contents, and gets them ready for new input is started by the listener. This feature makes input management and form submission simple, which improves user experience.
+          Together, these elements which include an interactive form with dynamic content updates, an aesthetically beautiful layout, and a Holy Grail create an interesting and user-friendly webpage.
+          
+          
+          
+          
+          </p>
+
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
